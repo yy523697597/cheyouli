@@ -14,7 +14,7 @@ $(function () {
 		fluid: false              //  Support responsive design. May break non-responsive designs
 	});
 });
-$('#locationSelect').citys({province: '四川', city: '成都', area: '新都'});
+$('#locationSelect').citys({ province: '四川', city: '成都', area: '新都' });
 
 //  comment列表滚动
 $(function () {

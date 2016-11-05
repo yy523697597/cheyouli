@@ -7,16 +7,20 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-* {
-  margin: 0;
-  padding: 0;
+*
+{
+    margin: 0;
+    padding: 0;
 }
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-  min-width:600px;
+html
+{
+    font-size: 1em;
+    line-height: 1.4;
+
+    min-width: 600px;
+
+    color: #222;
 }
 
 /*
@@ -27,22 +31,26 @@ html {
  * Customize the background color to match your design.
  */
 
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+::selection
+{
+    background: #b3d4fc;
+    text-shadow: none;
 }
 
 /*
  * A better looking default horizontal rule
  */
 
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+hr
+{
+    display: block;
+
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+
+    border: 0;
+    border-top: 1px solid #ccc;
 }
 
 /*
@@ -56,239 +64,359 @@ canvas,
 iframe,
 img,
 svg,
-video {
-  vertical-align: middle;
+video
+{
+    vertical-align: middle;
 }
 
 /*
  * Remove default fieldset styles.
  */
 
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+fieldset
+{
+    margin: 0;
+    padding: 0;
+
+    border: 0;
 }
 
 /*
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
-  resize: vertical;
+textarea
+{
+    resize: vertical;
 }
 
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
 
-.browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+.browserupgrade
+{
+    margin: .2em 0;
+    padding: .2em 0;
+
+    color: #000;
+    background: #ccc;
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 /*===header开始===*/
-body {
-  padding-top: 7rem;
-  font-family: "Microsoft YaHei", "宋体", sans-serif;
+body
+{
+    font-family: 'Microsoft YaHei', '宋体', sans-serif;
+
+    padding-top: 7rem;
 }
 
-.navbar {
-  background-color: #fff;
+.navbar
+{
+    background-color: #fff;
 }
 
-nav {
-  padding-top: 1rem;
-  height: 5rem;
-
+nav
+{
+    height: 5rem;
+    padding-top: 1rem;
 }
 
-nav .navbar-brand {
-  margin-top: -1.5rem;
+nav .navbar-brand
+{
+    margin-top: -1.5rem;
 }
 
-nav .slogan {
-  margin-right: 1rem;
+nav .slogan
+{
+    margin-right: 1rem;
 }
 
-nav .slogan h3 {
-  margin-top: -0.5rem;
+nav .slogan h3
+{
+    margin-top: -.5rem;
 }
 
-nav .area {
-  padding: 1rem;
-  padding-top: 1.5rem;
-  margin-right: 2rem;
+nav .area
+{
+    margin-right: 2rem;
+    padding: 1rem;
+    padding-top: 1.5rem;
 }
 
-nav .area span {
-  padding: 0.4rem;
-  border: 1px solid #FF9933;
-  border-radius: 0.3rem;
+nav .area span
+{
+    padding: .4rem;
+
+    border: 1px solid #f93;
+    border-radius: .3rem;
 }
 
-nav .active {
-  background-color: #fff;
-  border-bottom: 6px solid #1B2B5A;
+nav .active
+{
+    border-bottom: 6px solid #1b2b5a;
+    background-color: #fff;
 }
 
-nav .borderRight {
-
-  border-right: 1px solid #FF9933;
+nav .borderRight
+{
+    border-right: 1px solid #f93;
 }
 
-.navbar-nav {
-  background-color: #fff;
+.navbar-nav
+{
+    background-color: #fff;
 }
-nav li a:hover{
-  font-size: 1.5rem;
-  color:#1B2B5A ;
+nav li a:hover
+{
+    font-size: 1.5rem;
+
+    color: #1b2b5a ;
 }
 /*   header结束   */
 /*===main开始===*/
 /*===slide开始===*/
-section.slide .banner {
-  position: relative;
-  overflow: auto;
+section.slide .banner
+{
+    position: relative;
+
+    overflow: auto;
 }
 
-section.slide .banner li {
-  list-style: none;
+section.slide .banner li
+{
+    list-style: none;
 }
 
-section.slide .banner ul li {
-  float: left;
+section.slide .banner ul li
+{
+    float: left;
 }
 
-.right_banner_text {
-  padding-right: 6rem;
+.right_banner_text
+{
+    padding-right: 6rem;
 }
 
-#banner_text {
-  float: right;
-  margin-bottom: 6rem;
+#banner_text
+{
+    float: right;
+
+    margin-bottom: 6rem;
 }
 
-.btn, .rightfloat {
-  float: right;
-  margin-bottom: 1rem;
+.btn,
+.rightfloat
+{
+    float: right;
+
+    margin-bottom: 1rem;
 }
 
-.btn {
-  width: 200px;
-  font-size: 1.5rem;
+.btn
+{
+    font-size: 1.5rem;
+
+    width: 200px;
 }
 
-.rightfloat {
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 0.5rem;
+.rightfloat
+{
+    padding: 1rem;
+
+    border: 1px solid #ccc;
+    border-radius: .5rem;
 }
 
 /*   slide结束   */
 /*===detail开始===*/
 
-.detail {
-  background-image: url("../img/road.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 6rem;
+.detail
+{
+    padding: 6rem;
+
+    background-image: url('../img/road.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.detail .container {
-  border: 1px solid #ccc;
-  border-radius: 0.5rem;
-  background: rgba(0, 0, 0, 0.2);
-  padding: 4rem;
+.detail .container
+{
+    padding: 4rem;
+
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+    background: rgba(0, 0, 0, .2);
 }
 
-.detail #sign {
-  padding-top: 3rem;
-  min-height: 560px;
-  background-color: #fff;
-  border: 1px solid #fff;
-  border-radius: 0.5rem;
+.detail #sign
+{
+    min-height: 560px;
+    padding-top: 3rem;
+
+    border: 1px solid #fff;
+    border-radius: .5rem;
+    background-color: #fff;
 }
 
-.detail #sign h2 {
-  color: #1B2B5A;
-  width: 10rem;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  margin-bottom: 4rem;
+.detail #sign h2
+{
+    width: 10rem;
+    margin-bottom: 4rem;
+    padding: 1rem;
+
+    color: #1b2b5a;
+    border: 1px solid #ccc;
 }
 
-.detail #sign form {
-  margin-bottom: 4rem;
+.detail #sign form
+{
+    margin-bottom: 4rem;
 }
 
-.detail #comment {
-  overflow: hidden;
-  height: 560px;
-  color: #ccc;
+.detail #comment
+{
+    overflow: hidden;
+
+    height: 560px;
+
+    color: #ccc;
 }
 
-.detail #comment li {
-  height: 140px;
-  list-style: none;
+.detail #comment li
+{
+    height: 140px;
+
+    list-style: none;
 }
 
-.detail #comment h4 {
-  color: #fff;
+.detail #comment h4
+{
+    color: #fff;
 }
 
-.detail #comment div.row {
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px dashed #ccc;
+.detail #comment div.row
+{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+
+    border-bottom: 1px dashed #ccc;
 }
 
 /*   detail结束   */
 /*   main结束   */
 /*===footer开始===*/
-footer{
-  background-color: #182130;
-  min-height: 15rem;
-  padding:3rem;
+footer
+{
+    min-height: 15rem;
+    padding: 3rem;
+
+    background-color: #182130;
 }
-footer .contactway{
-  color: #ccc;
+footer .contactway
+{
+    color: #ccc;
 }
 
-footer #downlink{
-  margin-left: -2rem;
-  padding-top: 3rem;
-
+footer #downlink
+{
+    padding-top: 3rem;
 }
 
-footer .btn{
-  width:150px;
-  height:40px;
-  background-color:#F1F1F1;
-  border-radius: 0.5rem;
-  text-indent: -9999px;
+footer .btn
+{
+    width: 150px;
+    height: 40px;
+
+    text-indent: -9999px;
+
+    border-radius: .5rem;
+    background-color: #f1f1f1;
 }
 
-footer .btniphone{
-  background-image: url(../img/footerIphone.png);
-  background-repeat: no-repeat;
-  background-position: center;
+footer .btniphone
+{
+    background-image: url(../img/footerIphone.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-footer .btnandroid{
-  background-image: url(../img/footerAndroid.png);
-  background-repeat: no-repeat;
-  background-position: center;
+footer .btnandroid
+{
+    background-image: url(../img/footerAndroid.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
-footer .copyright{
-  color: #ccc;
+footer .copyright
+{
+    color: #ccc;
 }
 /*   footer结束   */
+@media screen and (max-width: 600px)
+{
+    #banner_text
+    {
+        float: right;
+
+        margin-bottom: 0;
+    }
+
+    .detail .container
+    {
+        padding: 2rem;
+    }
+
+    .detail
+    {
+        padding: 2rem;
+    }
+
+    .btn
+    {
+        font-size: .5rem;
+
+        width: 100px;
+        height: 30px;
+        margin-bottom: .5rem;
+    }
+
+    #codeimg
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+    .detail img
+    {
+        width: 60px;
+        height: 60px;
+        margin-top: 1rem;
+    }
+
+    #comment
+    {
+        margin: 0;
+        padding: 0;
+    }
+
+    .detail #sign form
+    {
+        margin-bottom: 2rem;
+    }
+
+    .detail #sign h2
+    {
+        margin-bottom: 1rem;
+    }
+
+    #submitbtn
+    {
+        width: 100%;
+    }
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -297,8 +425,9 @@ footer .copyright{
  * Hide visually and from screen readers
  */
 
-.hidden {
-  display: none !important;
+.hidden
+{
+    display: none !important;
 }
 
 /*
@@ -306,15 +435,19 @@ footer .copyright{
  * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
  */
 
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
+.visuallyhidden
+{
+    position: absolute;
+
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+
+    border: 0;
 }
 
 /*
@@ -324,21 +457,25 @@ footer .copyright{
  */
 
 .visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
+.visuallyhidden.focusable:focus
+{
+    position: static;
+
+    overflow: visible;
+    clip: auto;
+
+    width: auto;
+    height: auto;
+    margin: 0;
 }
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
 
-.invisible {
-  visibility: hidden;
+.invisible
+{
+    visibility: hidden;
 }
 
 /*
@@ -354,13 +491,16 @@ footer .copyright{
  */
 
 .clearfix:before,
-.clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+.clearfix:after
+{
+    display: table; /* 2 */
+
+    content: ' '; /* 1 */
 }
 
-.clearfix:after {
-  clear: both;
+.clearfix:after
+{
+    clear: both;
 }
 
 /* ==========================================================================
@@ -369,14 +509,16 @@ footer .copyright{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 35em)
+{
+    /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
 (min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+(min-resolution: 120dpi)
+{
+    /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -385,74 +527,87 @@ footer .copyright{
    http://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
-  *,
-  *:before,
-  *:after,
-  *:first-letter,
-  *:first-line {
-    background: transparent !important;
-    color: #000 !important;
-    /* Black prints faster:
+@media print
+{
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line
+    {
+        color: #000 !important;
+        background: transparent !important;
+        /* Black prints faster:
                                       http://www.sanbeiji.com/archives/953 */
-    box-shadow: none !important;
-    text-shadow: none !important;
-  }
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
 
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
+    a,
+    a:visited
+    {
+        text-decoration: underline;
+    }
 
-  a[href]:after {
-    content: " (" attr(href) ")";
-  }
+    a[href]:after
+    {
+        content: ' (' attr(href) ')';
+    }
 
-  abbr[title]:after {
-    content: " (" attr(title) ")";
-  }
+    abbr[title]:after
+    {
+        content: ' (' attr(title) ')';
+    }
 
-  /*
+    /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]:after,
-  a[href^="javascript:"]:after {
-    content: "";
-  }
+    a[href^='#']:after,
+    a[href^='javascript:']:after
+    {
+        content: '';
+    }
 
-  pre,
-  blockquote {
-    border: 1px solid #999;
-    page-break-inside: avoid;
-  }
+    pre,
+    blockquote
+    {
+        border: 1px solid #999;
 
-  /*
+        page-break-inside: avoid;
+    }
+
+    /*
    * Printing Tables:
    * http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-  thead {
-    display: table-header-group;
-  }
+    thead
+    {
+        display: table-header-group;
+    }
 
-  tr,
-  img {
-    page-break-inside: avoid;
-  }
+    tr,
+    img
+    {
+        page-break-inside: avoid;
+    }
 
-  img {
-    max-width: 100% !important;
-  }
+    img
+    {
+        max-width: 100% !important;
+    }
 
-  p,
-  h2,
-  h3 {
-    orphans: 3;
-    widows: 3;
-  }
+    p,
+    h2,
+    h3
+    {
+        orphans: 3;
+        widows: 3;
+    }
 
-  h2,
-  h3 {
-    page-break-after: avoid;
-  }
+    h2,
+    h3
+    {
+        page-break-after: avoid;
+    }
 }
