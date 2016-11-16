@@ -1,7 +1,7 @@
 /**
  * Created by yu on 2016/11/4 0004.
  */
-//首页轮播图
+// 首页轮播图
 $(function () {
   $('.banner').unslider({
     animation: 'vertical',    //  切换动画为垂直
